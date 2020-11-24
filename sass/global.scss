@@ -1,0 +1,32 @@
+@import './index.scss';
+
+@font-face {
+  font-family: 'Jetbrains Mono';
+  src: url('../styles/fonts/JetBrainsMono-Italic.woff2') format('woff2');
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Jetbrains Mono';
+  src: url('../styles/fonts/JetBrainsMono-ExtraBold.woff2') format('woff2');
+  font-style: normal;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Jetbrains Mono, -apple-system, BlinkMacSystemFont, Segoe UI,
+    Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+    sans-serif;
+  background-color: #151618;
+  color: white;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
